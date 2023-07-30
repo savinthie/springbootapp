@@ -1,0 +1,97 @@
+.container h1{
+    color:rgb(14, 74, 152);
+    font-weight:200;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+table{
+    border:1px solid rgb(223, 226, 234);
+    align-items: center;
+    justify-content: center;
+    width:90%;
+}
+
+th{
+    background-color:rgb(14, 74, 152); 
+    color:white;
+}
+
+tr:nth-child(even) {
+  background-color: #88b0e05d;
+}
+th,tr{
+    padding: 20px;
+    text-align:left;
+    
+    
+}
+th{
+    font-weight:400;
+    font-size:large;
+    text-align: left;
+}
+td{
+    padding-left:20px;
+    text-align: left;
+}
+
+.addbtn{
+    background-color:white; 
+    text-decoration: none;
+    color:rgb(14, 74, 152);
+    border-radius: 5px;
+    margin-top:20px;
+    width:130px;
+    text-align: center;
+    border:1px solid rgb(14, 74, 152);
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-bottom:20px;
+
+
+}    
+.btnClass{
+    display: flex;
+    justify-content:space-between;
+    margin-right:10px;
+}
+.dltbtn{
+    color:rgb(255, 255, 255); 
+    text-decoration: none;
+    background-color:rgb(14, 74, 152);
+    border-radius: 5px;
+    border:1px solid rgb(14, 74, 152);
+    margin-top:20px;
+    width:130px;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-bottom:20px;
+}   
+
+.addbtn:hover{
+    text-decoration: none;
+    background-color:rgb(14, 74, 152);
+    color: white;
+    border:1px solid rgb(14, 74, 152);
+}
+
+.dltbtn:hover{
+   text-decoration: none;
+   background-color:rgba(14, 74, 152, 0.693);
+   border:none;
+   color: white;
+}
+
+#addheading
+{
+    font-weight: 300;
+    
+}
